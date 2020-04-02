@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8"/>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+	<meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+	<title>CDN</title>
+	<link rel="shortcut icon" href="favicon.ico" />
+	<link rel="stylesheet" href="https://font.mili.us/css?family=proxima-nova">
+	<link rel="stylesheet" type="text/css" href="https://unpkg.com/@mdi/font@5.0.45/css/materialdesignicons.min.css">
+	<link rel="stylesheet" href="https://unpkg.com/@bybas/latte-ui@1.7.0/dist/latte-ui.css"/>
+</head>
+<body>
+
+<style>
+body {
+  display: grid;
+  place-items: center;
+  height: 100vh;
+}
+/* Solid border */
+hr.solid {
+  border-top: 2px solid #dedede;
+}
+</style>
+
+<div class="center">
+	<div class="panel">
+		<div class="panel-body">
+						<center><img style="width: 50px; margin-bottom: 30px;" src="https://image.flaticon.com/icons/svg/463/463612.svg"></img></center>
+						<p>Welkom op de CDN van <b>Rail-IT</b><br><br>Dit subdomein wordt gebruikt voor:<br><br>
+
+						<i><i class="mdi mdi-camera-image"></i> Prachtige afbeeldingen op de site</i><br>
+						<i><i class="mdi mdi-file-video"></i> Sappig beeldmateriaal van en voor gebruikers</i><br>
+						<i><i class="mdi mdi-file-account"></i> Persoonlijke documenten van leden</i><br>
+						<i><i class="mdi mdi-account-lock"></i> Het opslaan van gegevens</i><br>
+						<i><i class="mdi mdi-cctv"></i> Top secret bestanden</i><br>
+						<br><center>Als gebruiker heeft u <b>geen</b> toegang tot de CDN</center></p><br>
+						<button onclick="location.href='https://rail-it.be';" style="float: right;" class="btn btn-contained btn-primary"><i class="mdi mdi-arrow-collapse-left"></i><span>Terug naar Rail-IT</span></button>
+						
+						<br><br><hr class="solid"><span style="font-size: x-small;">Made with ❤️ by Dylan using LatteUI <img src="https://cdn.mili.us/assets/joypixels/v5/svg/2764.svg" alt="Heart" class="emoji"> by <a href="https://bas.dev" target="_blank" rel="noopener">Bas Milius</a> and other contributors.</span>
+		</div>
+	</div>
+</div>
+
+
+
+	<script defer type="text/javascript" src="https://unpkg.com/vue@2.6.10/dist/vue.min.js"></script>
+	<script defer type="text/javascript" src="https://unpkg.com/@bybas/latte-ui@1.7.0/dist/latte-ui.js"></script>
+	<script defer type="text/javascript">
+		window.addEventListener("load", () =>
+		{
+			Vue.use(LatteUI, {});
+
+			new Vue({el: "#app"});
+		});
+	</script>
+
+</body>
+</html>
